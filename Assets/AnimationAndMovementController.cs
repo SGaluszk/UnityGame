@@ -23,7 +23,7 @@ public class AnimationAndMovementController : MonoBehaviour
 
     //sta³e
     float rotationFactorPerFrame = 15.0f;
-    float runMultiplier = 4.0f;
+    float runMultiplier = 6.0f;
     //int zero = 0;
 
     //grawitacja
