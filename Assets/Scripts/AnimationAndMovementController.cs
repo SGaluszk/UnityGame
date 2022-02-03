@@ -115,6 +115,8 @@ public class AnimationAndMovementController : MonoBehaviour
             isJumping = false;
             canDoubleJump = false;
             doubleJumpCount = 0;
+            animator.SetBool(isDoubleJumpingHash, false);
+
         }
         doubleJump();
     }
