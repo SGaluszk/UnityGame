@@ -129,7 +129,7 @@ public class AnimationAndMovementController : MonoBehaviour
 
     void onRun(InputAction.CallbackContext context)
     {
-        isRunPressed = context.ReadValueAsButton();
+        isRunPressed = !context.ReadValueAsButton();
     }
 
     void onMovementInput(InputAction.CallbackContext context)
