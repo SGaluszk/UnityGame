@@ -16,4 +16,9 @@ public class MainMenu : MonoBehaviour
         Debug.Log("Quit button was pressed!");
         Application.Quit();
     }
+
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
