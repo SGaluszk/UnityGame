@@ -125,7 +125,7 @@ public class @PlayerInput : IInputActionCollection, IDisposable
         }
     ],
     ""controlSchemes"": []
-}");
+}"); 
         // CharacterControls
         m_CharacterControls = asset.FindActionMap("CharacterControls", throwIfNotFound: true);
         m_CharacterControls_Move = m_CharacterControls.FindAction("Move", throwIfNotFound: true);
